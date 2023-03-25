@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220312/pngtree-data-security-password-lock-technology-image_1062370.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+    color: #555;
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
